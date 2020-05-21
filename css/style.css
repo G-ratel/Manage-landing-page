@@ -1,0 +1,576 @@
+@import url('https://fonts.google.com/specimen/Be+Vietnam');
+
+body {
+    font-family: Be Vietnam;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.container2 {
+    background: url(../img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+}
+header {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: auto;
+    /* margin-left: 10%; */
+}
+.hd_image, .hd_btn {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+.hd_btn {
+    text-align: right;
+}
+.hd_image {
+    padding: 20px 2px 10px 4px;
+}
+#toogle {
+    display: none;
+}
+.tactive {
+    display: none;
+}
+.hd_nav {
+    flex: 57%;
+    max-width: 57%;
+    padding: 0 4px;
+    display: inline;
+}
+.hd_nav ul{
+    margin: 0;
+    padding: 1rem;
+}
+.hd_nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    margin: 0;
+}
+.hd_nav ul li a{
+    text-decoration:none;
+    color: hsl(228, 39%, 23%);
+}
+.hd_nav ul li a:hover{
+    color: hsl(12, 88%, 59%);
+}
+button {
+    padding: 10px 27px 10px 27px;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+button a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#one {
+    width: 100%;
+    margin: auto;
+}
+.build {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.builda {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 4px;
+}
+.buildax { display: none; }
+.build1 {
+    padding: 20px 20px 40px 0px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 57px;
+    color: hsl(228, 39%, 23%);
+}
+p {
+    font-weight: 400;
+    color: hsl(227, 12%, 61%);
+}
+.build2 {
+    padding: 20px 0px 20px 20px;
+}
+
+#two {
+    width: 100%;
+    margin: auto;
+}
+.manage {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 10%; */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.manageb {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 4px;
+}
+.manage1 {
+    padding: 20px 20px 40px 0px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 44px;
+    color: hsl(228, 39%, 23%);
+}
+.manage2 {
+    padding: 20px 0px 20px 20px;
+}
+.ma, .mb, .mc, .xz {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.num_btn, .num_btn2 {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+}
+.func, .func2 {
+    flex: 74%;
+    max-width: 74%;
+    padding: 0 4px;
+}
+h4 {
+    color: hsl(228, 39%, 23%);
+}
+
+#three {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+#threed {
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.testimonials {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 90px;
+}
+.my {
+    flex: 31%;
+    min-width: 31%;
+    padding: 0 4px;
+}
+.mySlides {
+    flex: 31%;
+    min-width: 31%;
+    padding: 0 4px;
+}
+.first, .second, .third, .fourth {
+    flex: 31%;
+    min-width: 31%;
+    padding: 0 4px;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.fourth {
+    display: none;
+}
+.testimonials img {
+    flex: 20%;
+    max-width: 20%;
+    width: 30%;
+    top: 0;
+    right: 12%;
+    transform: translateY(-50%);
+} 
+
+#four {
+    width: 100%;
+    background-color: hsl(12, 88%, 59%);
+    margin: auto;
+}
+.simp {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 90px;
+}
+.sa, .sb {
+    flex: 47%;
+    max-width: 47%;
+    padding: 0 4px;
+}
+.sa h3 {
+    color: hsl(0, 0%, 98%);
+}
+.sb button {
+    background-color: hsl(0, 0%, 98%);
+}
+.sb button a {
+    color: hsl(12, 88%, 59%);
+}
+.sb {
+    text-align: right;
+    padding-top: 40px;
+}
+
+footer {
+    width: 100%;
+    background-color: hsl(228, 39%, 23%);
+    margin: auto;
+}
+.ft_all {
+    width: 80%;
+    margin: auto;
+    /* margin-left: 10%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.locon {
+    flex: 21%;
+    max-width: 21%;
+    padding: 0 4px;
+}
+.ft_logo {
+    padding: 20px 2px 10px 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ft_icon div {
+    display: inline;
+    padding: 2px 3px;
+}
+.ft_icon div a img:hover{
+    color: hsl(12, 88%, 59%);
+}
+.link {
+    flex: 40%;
+    max-width: 40%;
+    padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link1, .link2 {
+    flex: 42%;
+    max-width: 42%;
+    padding: 0 4px;
+}
+.link ul{
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+.link ul li{
+    padding: 4px 5px;
+    margin: 0;
+}
+.link ul li a{
+    text-decoration:none;
+    color: hsl(0, 0%, 98%);
+    font-size: 14px;
+}
+.link ul li a:hover{
+    color: hsl(12, 88%, 59%);
+}
+.lac {
+    flex: 36%;
+    max-width: 36%;
+    padding: 0 4px;
+    text-align: right;
+    margin-top: 20px;
+}
+.lac p {
+    font-size: 14px;
+}
+.pa {
+    display: none;
+}
+input {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+.lac button {
+    padding: 10px 17px 10px 17px;
+}
+
+@media (max-width: 1017px) {
+    header, .build, .manage, .simp, .ft_all {
+        width: 90%;
+    }
+}
+@media (max-width: 907px) {
+    input {
+        margin-right: 0px;
+        margin-bottom: 2px;
+    }
+    .locon {
+        flex: 22%;
+        max-width: 22%;
+    }
+    .link {
+        flex: 34%;
+        max-width: 34%;
+    }
+    .lac {
+        flex: 40%;
+        max-width: 40%;
+    }
+    h2 {
+        font-size: 47px;
+    }
+    h3 {
+        font-size: 34px;
+    }
+}
+@media (max-width: 858px) {
+    .hd_image {
+        flex: 20%;
+        max-width: 20%;
+    }
+    .hd_btn {
+        flex: 17%;
+        max-width: 17%;
+    }
+    .hd_nav {
+        flex: 59%;
+        max-width: 59%;
+    }
+    .hd_nav ul li{
+        padding: 10px 7px;
+    }
+}
+@media (max-width: 788px) {
+    .hd_nav ul li{
+        padding: 10px 4px;
+    }
+    .ft_icon div {
+        display: inline;
+        padding: 2px 1px;
+    }
+    .hd_btn {
+        display: none;
+    }
+    .hd_image {
+        flex: 24%;
+        max-width: 24%;
+    }
+    .hd_nav {
+        flex: 70%;
+        max-width: 70%;
+    }
+    .num_btn button {
+        padding: 10px 17px 10px 17px;
+    }
+}
+@media (max-width: 692px) {
+    .container2 {
+        background: url(../img/bg-simplify-section-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    #three {
+        display: block;
+    }
+    #threed {
+        display: none;
+    }
+    .hd_nav {
+        flex: 22%;
+        max-width: 22%;
+    }
+    .hd_image {
+        flex: 72%;
+        max-width: 72%;
+    }
+    .num_btn, .xz {
+        padding: 0px 0px;
+    }
+    .num_btn button {
+        padding: 10px 17px 10px 17px;
+        margin-top: 0px;
+    }
+    .num_btn2 {
+        display: none;
+    }
+    .manage2 {
+        padding-left: 2px;
+    }
+    .xz{
+        background-color: hsl(13, 100%, 96%);
+        width: 100%; 
+        margin-top: 0px;
+        border-radius: 40px;
+    }
+    .func2 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .func h4 {
+        margin: 7px 0px;
+    }
+    #btn {
+        display: block;
+    }
+    #btn2, #btn3 {
+        display: none;
+    }
+    #toogle {
+        display: block;
+    }
+    #toogle button{
+        background-image: none;
+        background-color: white;
+        outline: none;
+    }
+    .tactive {
+        display: none;
+        position: fixed; 
+        z-index: 1;
+        padding-top: 60px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+    .tactive-cont {
+        background-color: hsl(0, 0%, 98%);
+        margin: auto;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    .tactive-cont .span {
+       padding-left: 2px;
+     }
+    .tactive-cont .span li{
+        text-align: center;
+        display: block;
+        padding: 20px;
+        background-color: hsl(0, 0%, 98%);
+     }
+     .tactive-cont .span li a {
+         color: hsl(233, 26%, 24%);
+         font-size: 14px;
+         font-weight: 700;
+         text-decoration: none;
+     }
+    .hd_nav {
+        display: none;
+    }
+    .sa, .sb, .builda, .manageb {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .sb, .sa, .build1, .manage1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .buildax { display: block; }
+    .builda .build2 { display: none; }
+    .builda { margin-bottom: 30px; }
+
+    .locon, .lac { display: flex; flex-wrap: wrap; padding: 0 4px; }
+
+    .locon, .locon .ft_logo, .locon .ft_icon, .link, .lac, .lac form, .lac .p, .pa {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .lac, .locon, .pa {
+        text-align: center;
+    }
+    .ft_all { text-align: center; }
+    
+    .ft_all > .locon {order: 3;}
+    .ft_all > .link {order: 2;}
+    .ft_all > .lac form {order: 1;}
+    .ft_all > .lac .p {display: none;}
+    .ft_all > .pa {order: 4;}
+
+    .locon > .ft_logo {order: 2;}
+    .locon > .ft_icon {order: 1;}
+
+    .pa {
+        display: block;
+    }
+    .ft_icon {
+        margin-top: 20px;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+
+    .fourth {
+        display: block;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 8px;
+        width: 8px;
+        margin: 0 1px;
+        background-color: hsl(0, 0%, 98%);
+        border-radius: 50%;
+        border: 1px solid hsl(12, 88%, 59%);
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+        background-color: hsl(12, 88%, 59%);
+    }
+    
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+    
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
+
+}
